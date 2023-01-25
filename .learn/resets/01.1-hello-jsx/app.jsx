@@ -6,11 +6,7 @@ let age = "12";
 let name = "John";
 
 // we can use it in our html like this
-let output = (
-	<span>
-		{name} is {age} years old
-	</span>
-);
+let output = <span><h1>My name is {name}</h1><br/><h2>I´m {age} years old</h2></span>
 
 // use react-dom to render it
 ReactDOM.render(output, document.querySelector("#myDiv"));
